@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+}
+
+#grid-parent {
+    min-width: 960px;
+    display: grid;
+    grid-template-rows: repeat(5, minmax(100px, auto));
+    grid-gap: 5px;
+    margin: 0 auto;
+    /* margin-top: 0; */
+}
+
+.one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Karma', sans-serif;
+    font-weight: lighter;
+}
+
+.one h3 {
+    margin-right: 15px;
+}
+
+.two {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px, auto));
+    grid-gap: 5px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.two-child {
+    max-width: 300px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.three span {
+    background-color: rgb(59, 56, 56);
+    color: white;
+    padding: 10px;
+}
+
+.three span:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+hr {
+    width: 98%;
+    height: 0.5px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.four-item {
+    max-width: 1000px;
+    height: vh;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.four-item p {
+    text-align: justify;
+}
+
+.four-img {
+    width: 700px;
+    height: auto;
+}
+
+.five {
+    display: flex;
+    flex-direction: fow;
+    justify-content: space-between;
+}
+
+.footer-item {
+    /* border: 1px solid black; */
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+    font-style: oblique;
+}
+
+.png {
+    width: 55px;
+    height: auto;
+    margin-left: 10px;
+}
+
+.post-par {
+    float: right;
+    padding-right: 45px;
+}
+
+hr {
+    width: 100%;
+    color: grey;
+    margin: 5px;
+}
+
+.ppost {
+    background-color: lightgray;
+    padding: 20px;
+    font-weight: lighter;
+}
+
+.ppost-box:hover {
+    background-color: lightgray;
+}
+
+.six {
+    background-color: whitesmoke;
+}
+
+.tag {
+    background-color: lightgray;
+    padding: 20px;
+    font-weight: lighter;
+    margin-top: 0px;
+}
+
+.tag-parent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+span {
+    background-color: whitesmoke;
+    padding: 3px;
+    margin: 5px;
+    border: 0.5px solid grey;
+    border-radius: 5px;
+}
+
+span:hover {
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+
+input {
+    width: 95%;
+    padding: 10px;
+    margin: 5px;
+}
+
+.footer-item h4 {
+    color: grey;
+    margin-left: 5px;
+    font-weight: large;
+}
